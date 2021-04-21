@@ -25,7 +25,7 @@ public class Program {
 		if (!checkOut.after(checkIn)) { // se o checkout for depois do checkin
 			System.out.println("Error in reservation: Check-Out date must be after Check-In date!");
 		} else {
-			Reservation reservation = new Reservation(number, checkIn, checkOut); // instanciando o metodo
+			Reservation reservation = new Reservation(number, checkIn, checkOut); // instanciando o objt
 			System.out.println("Reservation: " + reservation); // mostrar na tela os dados da reserva
 
 			System.out.println();
